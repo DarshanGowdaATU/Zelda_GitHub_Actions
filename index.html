@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOTW League Badge Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BOTW League Badge Store</h1>
+        <div class="user-info">
+            <p>Player: Link</p>
+            <p>Credits: <span id="credits">1200</span></p>
+        </div>
+    </header>
+
+    <main>
+        <section class="badge-store">
+            <h2>Available Badges</h2>
+            <div class="badge-list">
+                <div class="badge-card" data-price="300" data-name="Basic Badge">
+                    <img src="https://via.placeholder.com/100/FF5733/FFFFFF?text=Basic+Badge" alt="Basic Badge">
+                    <h3>Basic Badge</h3>
+                    <p>Price: 300 credits</p>
+                    <button>Buy</button>
+                </div>
+                <div class="badge-card" data-price="600" data-name="Advanced Badge">
+                    <img src="https://via.placeholder.com/100/33C3FF/FFFFFF?text=Advanced+Badge" alt="Advanced Badge">
+                    <h3>Advanced Badge</h3>
+                    <p>Price: 600 credits</p>
+                    <button>Buy</button>
+                </div>
+                <div class="badge-card" data-price="1000" data-name="Rare Badge">
+                    <img src="https://via.placeholder.com/100/FF33E6/FFFFFF?text=Rare+Badge" alt="Rare Badge">
+                    <h3>Rare Badge</h3>
+                    <p>Price: 1000 credits</p>
+                    <button>Buy</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="inventory">
+            <h2>Your Badge Inventory</h2>
+            <div id="inventory-list" class="inventory-list">
+                <p>No badges purchased yet.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
